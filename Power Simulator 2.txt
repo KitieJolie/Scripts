@@ -1,0 +1,330 @@
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/GamerProd-3747/UiLib/main/lua')))()
+local w = library:CreateWindow("Power Simulator 2")
+local b = w:CreateFolder("AutoFarm")
+local d = w:CreateFolder("AntiAfk")
+local c = w:CreateFolder("Tp Endurance")
+local a = w:CreateFolder("Tp PsychicForce")
+local e = w:CreateFolder("Tp Strength")
+local q = w:CreateFolder("Tp Agility")
+local f = w:CreateFolder("Tp Swiftness")
+local s = w:CreateFolder("Player")
+local u = w:CreateFolder("Credits")
+
+--Toggle
+b:Toggle("Train Everything",function(bool)
+    shared.toggle = bool
+    print("Train"..tostring(shared.toggle))
+    Train = bool
+end)
+
+d:Toggle("AntiAfk",function(bool)
+    shared.toggle = bool
+    print("AntiAfk"..tostring(shared.toggle))
+    AntiAfk = bool
+end)
+
+--Button
+
+--Endurance--
+c:Button("Endurance 100",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1327.75, 45.46, -172.108))
+end)
+
+c:Button("Endurance 1K",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1717.48, 46.61, 469.304))
+end)
+
+c:Button("Endurance 100K",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-408.539, 59.6004, -1549.41))
+end)
+
+c:Button("Endurance 1M",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2084.83, 46.56, -1629.43))
+end)
+
+c:Button("Endurance 100M",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2671.11, 127.96, -2126.29))
+end)
+
+c:Button("Endurance 1B",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3837.24, 51.06, -233.893))
+end)
+
+c:Button("Endurance 10B",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1522.51, 58.1444, 2277.58))
+end)
+
+c:Button("Endurance 100B",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-4774.58, 310.81, 1165.76))
+end)
+
+c:Button("Endurance 1T",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-5139.68, 24.4257, 678.047))
+end)
+
+--PsychicForce--
+a:Button("PsychicForce 100",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1401.53, 56.2235, 403.78))
+end)
+
+a:Button("PsychicForce 1K",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-72.4574, 502.11, -924.448))
+end)
+
+a:Button("PsychicForce 100K",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3170.56, 171.01, -1810.66))
+end)
+
+a:Button("PsychicForce 1M",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2342.39, 57.81, -1990.3))
+end)
+
+a:Button("PsychicForce 100M",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3261.79, 100.75, 991.517))
+end)
+
+a:Button("PsychicForce 1B",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-679.754, 167.49, -1378.07))
+end)
+
+a:Button("PsychicForce 10B",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1095.81, 263.1, 1920.09))
+end)
+
+a:Button("PsychicForce 100B",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-5685.28, 13.55, 185.617))
+end)
+
+a:Button("PsychicForce 1T",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-4546.72, -12.8855, 1045.26))
+end)
+
+--Strength--
+e:Button("Strength 100",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-945.617, 63.1602, 249.842))
+end)
+
+e:Button("Strength 1K",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1568.25, 12.5631, -261.45))
+end)
+
+e:Button("Strength 100K",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(25.1027, 44.0857, -1598.75))
+end)
+
+e:Button("Strength 1M",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2726.34, 162.072, -1433.84))
+end)
+
+e:Button("Strength 100M",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3365.25, 58.1772, -446.829))
+end)
+
+e:Button("Strength 1B",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-719.791, -2.14001, 1182.39))
+end)
+
+e:Button("Strength 10B",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1449.32, 48.0867, 1589.92))
+end)
+
+e:Button("Strength 100B",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-4828.45, 11.7875, -46.325))
+end)
+
+e:Button("Strength 1T",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-4927.08, -12.717, 1033.69))
+end)
+
+--Agility--
+q:Button("Agility 100",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-899.682, 96.1286, 300.442))
+end)
+
+q:Button("Agility 1K",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1611.41, 154.14, 752.365))
+end)
+
+q:Button("Agility 100K",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3459.19, 150.88, 418.801))
+end)
+
+--Swiftness--
+
+f:Button("Swiftness 20",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-801.288, 55.3972, 473.275))
+end)
+
+f:Button("Swiftness 10K",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1472.12, 72.0749, -182.567))
+end)
+
+f:Button("Swiftness 250K",function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-3931.77, 47.41, -241.676))
+end)
+
+--Player--
+s:Button("infjumps",function()
+InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end)
+
+s:Button("noclip(e)",function()
+noclip = true
+game:GetService('RunService').Stepped:connect(function()
+if noclip then
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+end
+end)
+plr = game.Players.LocalPlayer
+mouse = plr:GetMouse()
+mouse.KeyDown:connect(function(key)
+
+if key == "e" then
+noclip = not noclip
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+end
+end)
+print('Loaded')
+print('Press "E" to noclip')end)
+
+s:Button("Fly(x)",function()
+         repeat wait() 
+	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
+local mouse = game.Players.LocalPlayer:GetMouse() 
+repeat wait() until mouse
+local plr = game.Players.LocalPlayer 
+local torso = plr.Character.Head 
+local flying = false
+local deb = true 
+local ctrl = {f = 0, b = 0, l = 0, r = 0} 
+local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+local maxspeed = 400 
+local speed = 5000 
+
+function Fly() 
+local bg = Instance.new("BodyGyro", torso) 
+bg.P = 9e4 
+bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+bg.cframe = torso.CFrame 
+local bv = Instance.new("BodyVelocity", torso) 
+bv.velocity = Vector3.new(0,0.1,0) 
+bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
+repeat wait() 
+plr.Character.Humanoid.PlatformStand = true 
+if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then 
+speed = speed+.5+(speed/maxspeed) 
+if speed > maxspeed then 
+speed = maxspeed 
+end 
+elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then 
+speed = speed-1 
+if speed < 0 then 
+speed = 0 
+end 
+end 
+if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then 
+bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
+elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then 
+bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+else 
+bv.velocity = Vector3.new(0,0.1,0) 
+end 
+bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
+until not flying 
+ctrl = {f = 0, b = 0, l = 0, r = 0} 
+lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+speed = 100
+bg:Destroy() 
+bv:Destroy() 
+plr.Character.Humanoid.PlatformStand = false 
+end 
+mouse.KeyDown:connect(function(key) 
+if key:lower() == "x" then 
+if flying then flying = false 
+else 
+flying = true 
+Fly() 
+end 
+elseif key:lower() == "w" then 
+ctrl.f = 1 
+elseif key:lower() == "s" then 
+ctrl.b = -1 
+elseif key:lower() == "a" then 
+ctrl.l = -1 
+elseif key:lower() == "d" then 
+ctrl.r = 1 
+end 
+end) 
+mouse.KeyUp:connect(function(key) 
+if key:lower() == "w" then 
+ctrl.f = 0 
+elseif key:lower() == "s" then 
+ctrl.b = 0 
+elseif key:lower() == "a" then 
+ctrl.l = 0 
+elseif key:lower() == "d" then 
+ctrl.r = 0 
+end 
+end)
+Fly()
+end)
+
+s:Button("Click TP (q)",function()
+    				plr = game.Players.LocalPlayer
+
+hum = plr.Character.HumanoidRootPart
+
+mouse = plr:GetMouse()
+
+
+
+mouse.KeyDown:connect(function(key)
+
+if key == "q" then
+
+if mouse.Target then
+
+hum.CFrame = CFrame.new(mouse.Hit.x, mouse.Hit.y + 5, mouse.Hit.z)
+
+end
+
+end
+end)
+end)
+
+s:Button("Inf Hp",function()
+    game.Workspace[game.Players.LocalPlayer.Name].Humanoid.MaxHealth = 9999999999999
+    game.Workspace[game.Players.LocalPlayer.Name].Humanoid.Health = 9999999999999
+end)
+
+--Credits--
+u:Button("KitieJolie#1158",function()
+    setclipboard("KitieJolie#1158")
+end)
+
+u:Button("Discord Server",function()
+    setclipboard("https://discord.gg/ZEM4WKKKVU")
+end)
+
+--For toggle
+while wait() do
+    if AntiAfk then
+        game:GetService("TestService").IsSleepAllowed = false
+    else
+        game:GetService("TestService").IsSleepAllowed = true
+    end
+    
+    if Train == true then
+        game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Powers.Equip","Punch")
+        game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Powers.Punch")
+        game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Powers.Equip","Pressup")
+        game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Powers.Pressup")
+        game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Jumping")
+    end
+end
